@@ -1,0 +1,407 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* LOGO */
+#logo {
+  overflow: hidden;
+}
+
+#logo img {
+  width: 100%;
+}
+
+/* CUERPO */
+body {
+  background-color: black;
+}
+
+.navbar {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: .5rem 1rem;
+  font-size: 20px;
+  background-color: brown;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: burlywood;
+}
+
+.dropdown-menu.show {
+  display: block;
+  background-color: #16120b;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  min-width: 7rem;
+  padding: .5rem 0;
+  margin: .125rem 0 0;
+  color: #212529;
+  list-style: none;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: .25rem;
+}
+
+.submenu:hover {
+  background-color: #6e6a6a;
+  height: 100%;
+}
+
+/* Presentacion */
+.alert-success {
+  color: cadetblue;
+  background-color: black;
+  text-align: center;
+}
+
+.alert {
+  position: relative;
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: black;
+}
+
+.bienvenida {
+  font-size: 60px;
+}
+
+.parrafo {
+  color: cadetblue;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+}
+
+/* Video centrado */
+.video {
+  text-align: center;
+}
+
+.articulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: black;
+}
+
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: black;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 30px;
+  color: burlywood;
+}
+
+.card-text {
+  font-style: italic;
+}
+
+p {
+  color: cadetblue;
+}
+
+/* SUBSCRIPCIONES */
+.suscripciones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sub {
+  text-align: center;
+  color: #736985;
+  font-size: 22px;
+}
+
+.precio {
+  text-align: center;
+  font-size: 15px;
+  border: 1px solid blanchedalmond;
+}
+
+div.boton {
+  text-align: center;
+}
+
+.contactos {
+  background: -webkit-gradient(linear, left top, left bottom, from(grey), to(black));
+  background: linear-gradient(to bottom, grey, black);
+  padding: 0%;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.contactos li a {
+  color: blanchedalmond;
+}
+
+h2.opinion {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 2px;
+}
+
+#comentarios {
+  text-align: center;
+  padding: 20px;
+}
+
+textarea {
+  width: 60%;
+  height: 90px;
+  font-size: 17px;
+}
+
+.click:hover {
+  cursor: pointer;
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
+  -webkit-transition: all cubic-bezier(0.25, 0.61, 0.355, 1) 2s;
+  transition: all cubic-bezier(0.25, 0.61, 0.355, 1) 2s;
+}
+
+.icono {
+  color: blanchedalmond;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#logo img {
+  width: 100%;
+}
+
+/* CUERPO */
+body {
+  background-color: #000;
+}
+
+.navbar {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: .5rem 1rem;
+  font-size: 20px;
+  background-color: brown;
+}
+
+.navbar .navbar a {
+  text-decoration: none;
+  color: burlywood;
+}
+
+.navbar .dropdown-menu.show {
+  display: block;
+  background-color: #16120b;
+}
+
+.navbar .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  min-width: 7rem;
+  padding: .5rem 0;
+  margin: .125rem 0 0;
+  color: #212529;
+  list-style: none;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: .25rem;
+}
+
+.navbar .submenu:hover {
+  background-color: #6e6a6a;
+  height: 100%;
+}
+
+/* Presentacion */
+.alert {
+  position: relative;
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: black;
+}
+
+.alert .alert-success {
+  color: 95, 158, 160;
+  background-color: #000;
+  text-align: center;
+}
+
+.bienvenida {
+  font-size: 60px;
+}
+
+.bienvenida .parrafo {
+  color: 95, 158, 160;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+}
+
+/* Video centrado */
+.video {
+  text-align: center;
+}
+
+.articulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: black;
+}
+
+.articulo .card {
+  position: relative;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #000;
+}
+
+.articulo .card-title {
+  text-align: center;
+  font-size: 30px;
+  color: burlywood;
+}
+
+.articulo .card-text {
+  font-style: italic;
+}
+
+.articulo p {
+  color: 95, 158, 160;
+}
+
+/* SUBSCRIPCIONES */
+.suscripciones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.suscripciones .sub {
+  text-align: center;
+  color: #736985;
+  font-size: 22px;
+}
+
+.suscripciones .precio {
+  text-align: center;
+  font-size: 15px;
+  border: 1px solid blanchedalmond;
+}
+
+.suscripciones div.boton {
+  text-align: center;
+}
+
+.contactos {
+  background: -webkit-gradient(linear, left top, left bottom, from(grey), to(black));
+  background: linear-gradient(to bottom, grey, black);
+  padding: 0%;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.contactos .contactos li a {
+  color: blanchedalmond;
+}
+
+.contactos .icono {
+  color: blanchedalmond;
+}
+
+h2.opinion {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 2px;
+}
+
+#comentarios {
+  text-align: center;
+  padding: 20px;
+}
+
+#comentarios textarea {
+  width: 60%;
+  height: 90px;
+  font-size: 17px;
+}
+
+#comentarios .click:hover {
+  cursor: pointer;
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
+  -webkit-transition: all cubic-bezier(0.25, 0.61, 0.355, 1) 2s;
+  transition: all cubic-bezier(0.25, 0.61, 0.355, 1) 2s;
+}
+/*# sourceMappingURL=estilo.css.map */
