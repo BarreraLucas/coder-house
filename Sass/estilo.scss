@@ -187,26 +187,3 @@ h2.opinion {
         transition: all cubic-bezier(0.25, 0.610, 0.355, 1) 2s;
     }
 }
-
-
-
-// footer{
-//     height: 200%;
-//     width: 200%;
-//     border: 2px solid red;
-// }
-// .social{
-//     list-style-type: none;
-// }
-
-// @each $redSocial in facebook, instagram, youtube {
-//     .#{$redSocial}{
-//             width: 100px;
-//             height: 100px;
-//             background-size: contain;
-//             background-position:center;
-//             display: block;
-            
-//             background-image: url("../Assets/redsocial/#{$redSocial}.png");
-//     }
-// }
