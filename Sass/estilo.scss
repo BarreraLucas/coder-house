@@ -187,3 +187,64 @@ h2.opinion {
         transition: all cubic-bezier(0.25, 0.610, 0.355, 1) 2s;
     }
 }
+.media{
+    display: block;
+    justify-content: space-between;
+    
+}
+.p-futbol{
+    color: rgb(66, 94, 104);
+    font-size: 17px;
+    text-align: center;
+    border: solid 1px grey;
+}
+
+//PAGINA DE ERROR//
+.pagina-error{
+    margin: 0px;
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+}
+.animacion{
+    
+    animation-duration:2.5s ;
+    animation-fill-mode:both;
+    animation-iteration-count: infinite;
+}
+@keyframes bounce{
+    0%, 20%, 50%, 100%{transform:translateY(0);}
+    40%{transform: translateY(-30px);}
+    60%{transform:translateY(-15px);}
+}
+.bounce{
+    animation-name: bounce;
+}
+
+.error{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100%;
+}
+.error-container{
+    text-align: center;
+    color: white;
+    margin-top: 20%;
+    h1{
+        font-size: 60px;
+    }
+    p{
+        font-size: 18px;
+        color: black;
+    }
+}
+
+// SECTOR FUTBOL//
+.card-text{
+    font-size: 25px;
+    color: blanchedalmond;
+}
+.card-text1{
+    font-size: 18px;
+}
