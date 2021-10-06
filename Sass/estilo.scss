@@ -76,14 +76,16 @@ body {
 
 .bienvenida {
     font-size: 60px;
-
-    .parrafo {
-        color: $color;
+    font-weight: bold;
+    color: rgb(104, 81, 52);
+}
+    .parrafo{
+        color: white;
         padding: $ancho/10;
         text-align: center;
         font-size: 25px;
     }
-}
+
 
 
 /* Video centrado */
@@ -94,7 +96,7 @@ body {
 .articulo {
     display: flex;
     justify-content: space-between;
-    border: black;
+    border: rgb(0, 0, 0);
 
     .card {
         position: relative;
@@ -107,19 +109,20 @@ body {
         background-color: $background-fondo;
     }
 
-    .card-title {
+    .card-title-index {
         text-align: center;
-        font-size: 30px;
-        color: burlywood;
+        font-size: 35px;
+        font-weight: bold;
+        color: rgb(104, 81, 52);
     }
 
-    .card-text {
+    .card-text-index {
         font-style: italic;
+        color: white;
+        font-size: 20px;
     }
 
-    p {
-        color: $color;
-    }
+    
 }
 
 
@@ -130,7 +133,7 @@ body {
 
     .sub {
         text-align: center;
-        color: rgb(115, 105, 133);
+        color: rgb(104, 81, 52);
         font-size: 22px;
     }
 
@@ -241,25 +244,74 @@ h2.opinion {
 }
 
 // SECTOR FUTBOL//
-.card-text{
-    font-size: 25px;
+.card-title-futbol{
+    font-size: 30px;
     color: blanchedalmond;
+    font-weight: bold;
 }
-.card-text1{
+.card-text-futbol{
     font-size: 18px;
+    color: white;
 }
-
+.media-body{
+    border: solid 2px rgb(119, 55, 55);
+}
 // sector basquet//
 .lead{
-    color: rgb(212, 226, 17);
+    color: rgb(242, 243, 234);
 }
 .nba{
 font-size: 48px;
-color: blanchedalmond;
+color: rgb(253, 251, 249);
 text-align:inherit;
 }
 .texto-basquet{
-    font-size: 25px;
-    color:rgb(212, 226, 17) ;
+    font-size: 20px;
+    color:rgb(231, 231, 221) ;
     text-align: webkit-left;
+}
+
+h5{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(8, 8, 8);
+}
+.parrafo-basquet{
+    color: rgb(250, 246, 246);
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+// tenis//
+.titulo-tenis{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(8, 8, 8);
+}
+.parrafo-tenis{
+    color: black;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card-text-tenis{
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-text-tenis{
+    font-size: 18px;
+    color: white;
+    line-height: inherit;
+}
+
+// sector tienda//
+.card-title-tienda{
+    font-size: 30px;
+    color: blanchedalmond;
+    font-weight: bold;
+}
+.card-text-tienda{
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }

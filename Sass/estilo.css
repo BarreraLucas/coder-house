@@ -274,10 +274,12 @@ body {
 
 .bienvenida {
   font-size: 60px;
+  font-weight: bold;
+  color: #685134;
 }
 
-.bienvenida .parrafo {
-  color: 95, 158, 160;
+.parrafo {
+  color: white;
   padding: 10px;
   text-align: center;
   font-size: 25px;
@@ -312,18 +314,17 @@ body {
   background-color: #000;
 }
 
-.articulo .card-title {
+.articulo .card-title-index {
   text-align: center;
-  font-size: 30px;
-  color: burlywood;
+  font-size: 35px;
+  font-weight: bold;
+  color: #685134;
 }
 
-.articulo .card-text {
+.articulo .card-text-index {
   font-style: italic;
-}
-
-.articulo p {
-  color: 95, 158, 160;
+  color: white;
+  font-size: 20px;
 }
 
 /* SUBSCRIPCIONES */
@@ -338,7 +339,7 @@ body {
 
 .suscripciones .sub {
   text-align: center;
-  color: #736985;
+  color: #685134;
   font-size: 22px;
 }
 
@@ -501,28 +502,82 @@ h2.opinion {
   color: black;
 }
 
-.card-text {
-  font-size: 25px;
+.card-title-futbol {
+  font-size: 30px;
   color: blanchedalmond;
+  font-weight: bold;
 }
 
-.card-text1 {
+.card-text-futbol {
   font-size: 18px;
+  color: white;
+}
+
+.media-body {
+  border: solid 2px #773737;
 }
 
 .lead {
-  color: #d4e211;
+  color: #f2f3ea;
 }
 
 .nba {
   font-size: 48px;
-  color: blanchedalmond;
+  color: #fdfbf9;
   text-align: inherit;
 }
 
 .texto-basquet {
-  font-size: 25px;
-  color: #d4e211;
+  font-size: 20px;
+  color: #e7e7dd;
   text-align: webkit-left;
+}
+
+h5 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #080808;
+}
+
+.parrafo-basquet {
+  color: #faf6f6;
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.titulo-tenis {
+  font-size: 40px;
+  font-weight: bold;
+  color: #080808;
+}
+
+.parrafo-tenis {
+  color: black;
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-text-tenis {
+  font-size: 18px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-text-tenis {
+  font-size: 18px;
+  color: white;
+  line-height: inherit;
+}
+
+.card-title-tienda {
+  font-size: 30px;
+  color: blanchedalmond;
+  font-weight: bold;
+}
+
+.card-text-tienda {
+  font-size: 18px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 /*# sourceMappingURL=estilo.css.map */
